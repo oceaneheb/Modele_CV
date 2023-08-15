@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: gray;
+    margin: 30px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+.premier-bloc {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ------ Photo ----------*/
+
+#rectangle-gris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: gray;
+    margin-left: 5%;
+}
+
+.header div img {
+    width: 100px;
+    height: 100px;
+}
+
+/* ---------- Introduction ----------------*/
+
+.introduction {
+    position: relative;
+}
+
+.rectangle-jaune {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 20px;
+    background-color: #FEE161;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-weight: 700;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(171, 171, 171);
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+/* ------------- Contact --------------*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    background-color: #FEE161;
+    flex-basis: 28%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.picto-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*----------- Main ------------*/
+
+.main {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 20px;
+    position: relative;
+}
+
+hr {
+    position: absolute;
+    left: 0;
+    height: 500px;
+    width: 3px;
+    background-color: black;
+    border: 0px;
+}
+
+.main div:first-child, .main div:nth-child(6) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main div {
+    margin-bottom: 20px;
+}
+
+.main i {
+    font-size: 30px;
+}
+
+.main div h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#education {
+    margin-top: 30px;
+}
+
+h4 {
+    font-weight: 400;
+    color: grey;
+}
+
+
+/*-----------Footer------------*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.reference {
+    padding-left: 70px;
+    padding-top: 20px;
+    background-color: #FEE161;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.reference h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.reference h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.reference p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.div-competences {
+    width: 50%;
+    padding-top: 20px;
+    align-self: flex-start;
+    padding-left: 30px;
+}
+
+.div-competences h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.competences {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.competences p {
+    line-height: 2.5;
+    width: 50%;
+}
+
+.ligne-progression {
+    height: 6px;
+    width: 50px;
+    background-color: black;
+}
+
+.div-logiciels {
+    width: 50%;
+    padding-top: 20px;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+
+.div-logiciels h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
